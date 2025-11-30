@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>小籠包點餐系統</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>小籠包點餐系統</h1>
+
+    <div class="menu">
+        <button onclick="addItem('小籠包', 11.25)">小籠包 單顆 $11.25</button>
+        <button onclick="addItem('紅茶', 15)">紅茶 $15</button>
+        <button onclick="addItem('奶茶', 20)">奶茶 $20</button>
+        <button onclick="addItem('豆漿', 20)">豆漿 $20</button>
+    </div>
+
+    <h2>購物車</h2>
+    <ul id="cart"></ul>
+
+    <h2>總金額：$<span id="total">0</span></h2>
+
+    <script src="script.js"></script>
+</body>
+</html>
