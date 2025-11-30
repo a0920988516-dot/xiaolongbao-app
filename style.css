@@ -1,31 +1,72 @@
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background: #f7f7f7;
+    background: #fffaf0;
 }
 
-h1 {
+.title {
     text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
 }
 
-.menu button {
-    display: block;
-    width: 100%;
-    padding: 15px;
-    margin: 10px 0;
-    background-color: #ffcc66;
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.item-btn {
+    padding: 20px;
+    background: #ffdd99;
     border: none;
-    border-radius: 8px;
-    font-size: 18px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.input-area {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+.add-btn {
+    padding: 10px;
+    background: #ffbb55;
+    border: none;
+    border-radius: 10px;
+}
+
+.subtitle {
+    margin-top: 20px;
+    font-size: 24px;
 }
 
 #cart {
-    background: white;
-    padding: 10px;
-    border-radius: 8px;
+    margin-top: 10px;
+    padding-left: 0;
 }
 
 #cart li {
-    padding: 5px 0;
-    border-bottom: 1px solid #ccc;
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 5px;
+    background: #fff1d6;
+    border-radius: 6px;
+}
+
+.total {
+    margin-top: 20px;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.clear-btn {
+    margin-top: 15px;
+    padding: 12px;
+    width: 100%;
+    background: #ff7777;
+    color: white;
+    border: none;
+    border-radius: 10px;
 }
