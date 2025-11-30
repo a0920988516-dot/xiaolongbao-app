@@ -1,0 +1,31 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #f7f7f7;
+}
+
+h1 {
+    text-align: center;
+}
+
+.menu button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #ffcc66;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+#cart {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+#cart li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
